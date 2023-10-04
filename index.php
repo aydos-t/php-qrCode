@@ -12,10 +12,10 @@
     <div class="table-responsive">
         <h3>QR Generation Form</h3><br/>
         <div class="box">
-            <form method="post" action="#">
+            <form method="post" action="qr-code.php">
                 <div class="form-group" style="width: 40%">
                     <label>QR Text</label>
-                    <input type="text" name="qrtext" id="qrtext" placeholder="Enter QR Text" required
+                    <input type="text" name="qrtext" id="qrtext" placeholder="Enter a link to generate or write any text" required
                            data-parsley-pattern="^[a-zA-Z]+$" data-parsley-trigger="keyup" class="form-control"/>
                 </div>
                 <div class="form-group">
