@@ -5,4 +5,3 @@ if (!$connect) {
     die('Error connect to database');
 }
 ?>
-?>
